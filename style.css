@@ -1,0 +1,27 @@
+*{box-sizing: border-box;margin: 0;padding: 0}
+body{background-color: var(--bg-body)}
+
+:root{
+    --bg-body:#000;
+    --bg-face-color:#ffe9dc;
+    --bg-face2-color:#b49079;
+    --bg-face3-color:#b49079;
+    --bg-hair-color:#fbc127;
+    --bg-hair2-color:#d4811b;
+    --bg-hair3-color:#fffcc8;
+    --bg-shadow-color:yellow;
+    --bg-e-color:#468e54;
+}
+.parent{ width: 480px; height: 400px;margin: auto;margin-top: 680px;position: relative}
+
+.face{margin: auto; width: 220px;position: relative;margin-top: -5px}
+
+.f1{width: 80px;height: 130px;z-index: 18;border-left: 2px solid black;border-bottom: 2px solid black;transform:skewY(45deg);position: absolute;border-radius:10px;left:0px;background-color: var(--bg-face-color);border-bottom-right-radius:31px;}
+
+.f2{width: 80px;height: 130px;z-index: 18;border-right: 2px solid black;border-bottom: 2px solid black;transform:skewX(-15deg)skewY(-46deg);position:absolute;border-radius:10px;right:0px;background-color: var(--bg-face-color);border-left:27px;}
+
+.f3{width: 190px;height: 203px;z-index: 10;background-color:var(--bg-face-color);border-radius: 58%;margin: auto;position: relative;top: -68px;}
+
+.f4{width: 30px;height: 28px;z-index: 10;background-color:var(--bg-face-color);margin: auto;position: relative;bottom: 66px;left: -3px;border-bottom: 2px solid black,transform; rotate(7deg);border-radius: 10px;}
+
+.f5
